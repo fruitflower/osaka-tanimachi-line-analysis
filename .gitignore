@@ -1,0 +1,13 @@
+
+# 元データ・CSVファイルは公開対象から除外
+data/
+*.csv
+
+# Pythonのキャッシュ
+__pycache__/
+*.pyc
+
+# 環境設定・認証情報
+.env
+.venv/
+venv/
